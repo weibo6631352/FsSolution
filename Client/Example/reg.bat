@@ -1,0 +1,1 @@
+%systemroot%\System32\regsvr32.exe dm.dll
