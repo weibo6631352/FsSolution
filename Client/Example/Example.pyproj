@@ -28,6 +28,7 @@
     <Compile Include="TaskManage.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Tasks\TuijingyanTask.py" />
     <Compile Include="User.py">
       <SubType>Code</SubType>
     </Compile>
@@ -35,7 +36,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="main.py" />
-    <Compile Include="Task.py">
+    <Compile Include="Tasks\Task.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -49,6 +50,9 @@
       <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
       <Architecture>X86</Architecture>
     </Interpreter>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Tasks\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
